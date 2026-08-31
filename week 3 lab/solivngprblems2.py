@@ -1,9 +1,9 @@
 #Number 2
 # 400 = v * 4
 
-T = input("4 hours")
+T = input("Enter time in hours: ")
 
-X = int(input("400 miles"))
+X = int(input("Enter distance in miles: "))
 
 V = X / int(T)
 
