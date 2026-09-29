@@ -8,11 +8,19 @@ import math
 
 def cal_theta(x, y):
 
+   
+
     theta = math.atan2(y, x)
+
+  
 
     degrees = theta * 180 / 3.14
 
     return degrees
+
+x = 4
+
+y = 3
 
 theta = cal_theta(x, y)
 
