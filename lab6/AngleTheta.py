@@ -14,10 +14,6 @@ def cal_theta(x, y):
 
     return degrees
 
-x = 4
-
-y = 3
-
 theta = cal_theta(x, y)
 
 print(f"The angle theta is: {theta:.2f} degrees")
